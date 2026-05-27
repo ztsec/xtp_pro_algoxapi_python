@@ -20,8 +20,8 @@ python版本algox api封装使用的Visual Studio 2015，如果本地安装的vs
 
 3.如果客户需要按自己的python版本编译封装库，可以使用source目录下的代码，根据自己的python的版本，及该python版本对应的编译后的boost库，自行编译所需的python封装库。（具体过程请参照《boost.python编译说明》文档，source文件夹下有源码）。
 
-5.XTP_PRO_ALGOXAPI文件夹下存放最新的C++版本的SDK，当前python封装库是算法交易库，python封装后的接口与当前c++版本的SDK中的API所有接口都保持一致，只有方法名有所区别，python封装后的接口方法名首字母小写，而C++版本的api方法名首字母大写。
+5.当前python封装库是算法交易库，python封装后的接口与当前c++版本的SDK中的API所有接口都保持一致，只有方法名有所区别，python封装后的接口方法名首字母小写，而C++版本的api方法名首字母大写。
 
   因此所有封装后的python接口方法使用和功能都可以参见C++版本的SDK的接口方法。请在xtp_algox_api.h头文件中了解各个接口的使用及功能。
 
-6. python版本的算法sdk包，请在git下使用clone下载：https://github.com/ztsec/xtp_pro_algoxapi_python.git
+1. python版本的算法sdk包，请在git下使用clone下载：https://github.com/ztsec/xtp_pro_algoxapi_python.git
